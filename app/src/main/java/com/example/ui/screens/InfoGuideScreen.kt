@@ -257,6 +257,19 @@ fun InfoGuideScreen(
             )
         }
 
+        // Info Card 4: Android-Version (APK) Direkt-Download Anleitung & 1-Klick-Export
+        item {
+            InfoFeatureGlassCard(
+                icon = Icons.Default.Autorenew,
+                iconTint = PsCyanGlow,
+                overline = "4. ANDROID-VERSION DIREKT ALS APK LADEN",
+                title = "Nur .APK statt .ZIP herunterladen",
+                description = "Wichtig: Wenn du im Menü auf 'Download ZIP' klickst, lädst du nur den Quellcode als .zip herunter. Für die installierbare Android-App (.apk) nutze entweder den 'APK Direkt-Download'-Button auf der Startseite oder klicke in Google AI Studio oben rechts im Einstellungs-Menü auf 'Generate APK' (bzw. unter GitHub auf 'Releases' -> PS5-Pro-Radar.apk).",
+                rightMetricLabel = "Dateiformat",
+                rightMetricValue = ".APK Datei"
+            )
+        }
+
         item {
             Spacer(modifier = Modifier.height(14.dp))
         }

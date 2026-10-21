@@ -2,5 +2,7 @@
   "name": "PS5 Pro Radar",
   "description": "PlayStation 5 Pro Preis-, Verfügbarkeits- & Scalper-Tracker für MediaMarkt, Saturn, Otto, Amazon & PS Direct mit Preisdiagramm, Kaufempfehlung und direktem GitHub APK-Release-Uploader.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

@@ -76,6 +76,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.ui.ApkDirectDownloader
 import com.example.ui.AppTab
 import com.example.ui.MarketRecommendation
 import com.example.ui.Ps5NotificationHelper
@@ -385,6 +386,20 @@ fun Ps5ProRadarApp(
                                     leadingIconTint = StockEmerald,
                                     rightCounterText = "5/5",
                                     onClick = { viewModel.selectTab(AppTab.ALARM_SETTINGS) }
+                                )
+                            }
+
+                            item {
+                                val apkSizeText = ApkDirectDownloader.getInstalledApkSizeText(context)
+                                QuickGlassActionPill(
+                                    title = "Android-APK Direkt-Download",
+                                    subtitle = "PS5-Pro-Radar.apk direkt in 'Downloads' speichern",
+                                    leadingStarColor = StockEmerald,
+                                    rightCounterText = apkSizeText,
+                                    onClick = {
+                                        val res = ApkDirectDownloader.downloadApkToDownloadsFolder(context)
+                                        viewModel.showStatusMessage(res.message)
+                                    }
                                 )
                             }
 
