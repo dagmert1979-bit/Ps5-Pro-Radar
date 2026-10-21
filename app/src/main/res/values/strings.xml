@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PS5 Pro Radar</string>
+    <string name="header_subtitle">PlayStation 5 Pro • Live Preis- &amp; Scalper-Tracker</string>
+    <string name="nav_dashboard">Preise &amp; Shops</string>
+    <string name="nav_alerts">Preiswecker</string>
+    <string name="nav_github">GitHub APK</string>
+    <string name="msrp_label">UVP: 799,99 €</string>
+    <string name="scalper_warning_title">Kauf derzeit NICHT empfohlen – Scalper-Warnung aktiv!</string>
+    <string name="scalper_warning_body">Bei MediaMarkt &amp; Saturn aktuell wegen Scalpern nicht verfügbar. Drittanbieter verlangen Aufpreise (+150 € bis +290 €). Jetzt warten, bis neue PS5 Pro Ware im offiziellen Lager eintrifft!</string>
+    <string name="restock_buy_now_title">JETZT ZUSCHLAGEN! Neue PS5 Pro Ware im Lager!</string>
+    <string name="restock_buy_now_body">Frische Lieferung zum regulären Preis (UVP 799,99 €) eingetroffen! Jetzt sofort bestellen, bevor Scalper-Bots die Bestände wieder aufkaufen.</string>
+    <string name="btn_live_check">Live-Check starten</string>
+    <string name="btn_simulate_restock">Neue Lieferung testen (Lager-Toggle)</string>
+    <string name="btn_open_shop">Zum Shop</string>
+    <string name="btn_upload_github">APK jetzt per Knopfdruck zu GitHub hochladen</string>
+    <string name="btn_share_apk">APK-Datei lokal exportieren / teilen</string>
+    <string name="ps5_image_desc">PlayStation 5 Pro Konsole</string>
+</resources>
